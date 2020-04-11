@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 24px;
+	line-height: 1.5em;
+	letter-spacing: 0.1em;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+/*	align-items: center;*/
+}
+
+.container {
+	width: 70%;
+	display: flex;
+}
+
+.screen {
+	background-color: #FCDB00;
+}
+
+.slogan {
+	display: flex;
+	justify-content: space-between;
+	padding: 250px 0;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.slogan>h1 {
+
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 62px;
+	color: #010002;
+}
+
+.app1 {
+	height: 840px;
+	padding: 75px;
+}
+
+.footer {
+	background-color: #010101;
+	color: #FFFFFF;
+}
+
+.screen,
+.footer {
+padding: 75px;
+	height: 740px;
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.navigation>img {
+	
+	margin: 2px;
+}
+
+.set {
+display: flex;
+	flex-direction: row-reverse;
+align-items: flex-start;
+
+}
